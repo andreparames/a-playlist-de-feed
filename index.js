@@ -126,7 +126,7 @@ async function fetchAndGenerateRSS(url, outputFilePath, options) {
 // Example script usage:
 // Call this function with appropriate arguments in the terminal script
 const url = "https://gmg-posts-api.global.ssl.fastly.net/1/dossier/43/posts?apikey=1JrO3kC72XItBqET&apitoken=tsfiqogiwkcugyug&per_page=10&page=1&sort=-publishedAt&filter[isoLanguage]=pt&include=audios,authors,dossiers,labels"; // Replace with your JSON URL
-const outputFilePath = "./podcast-feed.xml";    // Replace with your desired output file path
+const outputFilePath = "./rss/podcast-feed.xml";    // Replace with your desired output file path
 const options = {
     title: "A Playlist de...",
     description: "Podcast não oficial do programa da TSF.",
