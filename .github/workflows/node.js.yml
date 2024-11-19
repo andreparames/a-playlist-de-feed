@@ -27,3 +27,8 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm run generate-rss
+    - name: Netlify Deploy
+      uses: nwtgck/actions-netlify@v3.0.0
+      with:
+        # Publish directory
+        publish-dir: rss
