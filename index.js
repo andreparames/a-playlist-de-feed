@@ -139,7 +139,7 @@ const options = {
     itunesAuthor: "andreparames",
     itunesOwnerName: "andreparames",
     itunesOwnerEmail: "podcast@andreparames.com",
-    itunesImage: "https://example.com/podcast-cover.jpg",
+    itunesImage: "https://pbcdn1.podbean.com/imglogo/image-logo/19811785/xmukvl4yusll.jpg",
     itunesExplicit: "no",
 };
 
