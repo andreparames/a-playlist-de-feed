@@ -29,6 +29,7 @@ jobs:
       with:
         # Publish directory
         publish-dir: rss
+        production-deploy: true
       env:
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
